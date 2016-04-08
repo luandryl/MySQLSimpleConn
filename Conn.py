@@ -35,7 +35,7 @@ class MySQLConn:
 		self.__open()
 		self.__session.execute("SELECT * FROM Aluno")
 		return self.__session.fetchall()
-
+		self.__close()
 
 if __name__ == '__main__':
     
