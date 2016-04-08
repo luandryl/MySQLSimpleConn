@@ -39,9 +39,9 @@ class MySQLConn:
 
 if __name__ == '__main__':
     
-		#creates the conn and show resuts
-		conn = MySQLConn('localhost','root','101520','TESTE')
-		print conn.select()
+	#creates the conn and show resuts
+	conn = MySQLConn('localhost','root','101520','TESTE')
+	print conn.select()
 		
 		
 		
