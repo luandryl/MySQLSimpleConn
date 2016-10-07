@@ -3,11 +3,10 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 06-Out-2016 às 23:10
+-- Generation Time: 07-Out-2016 às 04:54
 -- Versão do servidor: 5.7.13-0ubuntu0.16.04.2
 -- PHP Version: 7.0.8-0ubuntu0.16.04.3
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -41,7 +40,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Luan', 'luan.andryl@gmail.com', '$2y$10$MqWYZ8JP/2WKmf4UpVicKOaD7Are3GmSD4VNMmaKeXVjnTPbhob3e', NULL, '2016-09-14 18:42:04', '2016-09-14 18:42:04');
+(1, 'Luan', 'luan.andryl@gmail.com', '$2y$10$MqWYZ8JP/2WKmf4UpVicKOaD7Are3GmSD4VNMmaKeXVjnTPbhob3e', NULL, '2016-09-14 18:42:04', '2016-09-14 18:42:04'),
+(2, 'TESTE', 'TESTE', 'TESTE', 'TESTE', '2016-10-07 03:00:00', '2016-10-29 02:00:00');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +62,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
